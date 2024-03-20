@@ -1,0 +1,62 @@
+body {
+    margin-top: 20px;
+    background: #eee;
+}
+
+.card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09);
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09);
+    text-decoration: none; /* Remove underline */
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64, 64, 64, 0.09);
+    box-shadow: 0 19px 28px 5px rgba(64, 64, 64, 0.09);
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09) !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pt-1 {
+    padding-top: .25rem !important;
+}
+
+.head-icon {
+    margin-top: 18px;
+    color: #FF4500;
+}
+.para {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment Form</title>
+<link rel="stylesheet " href="/src/css/Navbar.css">
+<link rel="stylesheet" href="../css/CSS/card.css">
+<link rel="stylesheet" href="../css/CSS/carousel.css">
+<link rel="stylesheet" href="../css/CSS/flipcard.css">
+<link rel="stylesheet" href="/src/css/footer.css">
+<link rel="stylesheet" href="../css/CSS/happyclients.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/src/css/Home css/services.css">
+<link rel="stylesheet" href="/src/css/Home css/ourServices.css">
+
+
+<!-- <link rel="stylesheet" href="../css/footer.css"> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border-radius: 25px;
+        border: 2px solid #000;
+    }
+    .form-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+
+    }
+    .form-group input,
+    .form-group select {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        box-sizing: border-box;
+
+    }
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        box-sizing: border-box;
+    }
+    .submit-btn {
+        background-color: #007bff; /* Blue color */
+        color: white;
+        padding: 10px 355px;
+        border: none;
+        border-radius: 30px; /* Rounded shape */
+        cursor: pointer;
+    }
+    .container-1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: auto; 
+max-width: 100%;
+object-fit: fill;
+.centered {
+    text-align: center;
+  }
+  .centered-1 {
+    text-align: center;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .centered,
+    .centered-1 {
+      text-align: left; /* Adjust alignment for smaller screens */
+    }
+  }
+
+ 
+}
+
+.pr{
+   
+    text-align: center;
+    
+}
+</style>
+</head>
+<body>
+
+   
+
+    <div class="Nav" style="padding: 0px; margin: 0px;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/src/html/home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="/src/html/About.html">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="/src/html/ear.html">Ear</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="/src/html/nose.html">Nose</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="/src/html/Throat.html">Throat</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="/src/html/Services.html">More
+                                        about ERT healthcare</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/src/html/Blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/src/html/Contact.html">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="/src/html/home.html">
+                        <img src="/src/images/logo.svg" alt="" width="74" height="69"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <a href="/src/html/app.html">
+                        <button class="btn" style=" margin-left: 30px ", style="padding: 12px 40;"> Make An Appointment
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <div class="container-1">
+        <img src="/src/images/header-page.jpg" alt="Snow" style="width: 100%; height: auto;;">
+
+        
+      </div>
+      <div class="pr">
+        <h5 class="with">WITH ACCESS TO <br> <h1>24 Hour Emergency</h1><br><p>Our clinic is equipped with modern facilities and advanced medical technology to ensure accurate diagnoses
+            and effective treatments. This enables us to provide you with the highest standard of care.</p></h5>
+        
+      </div>
+      <div class="container mt-5">
+        <!-- Appointment form -->
+        <h2 class="text-center mb-4">Make an Appointment</h2>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Name *" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Your Email *" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Phone *" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <select class="form-select">
+                        <option value="">Choose Department</option>
+                        <option value="department1">Department 1</option>
+                        <option value="department2">Department 2</option>
+                        <option value="department3">Department 3</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select">
+                        <option value="">Choose Doctor</option>
+                        <option value="doctor1">Doctor 1</option>
+                        <option value="doctor2">Doctor 2</option>
+                        <option value="doctor3">Doctor 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <textarea class="form-control" placeholder="Type Appointment Note"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3 justify-content-center">
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary btn-block">Submit Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+ <!-- footer -->
+ <footer class="footer-section">
+    <div class="containerfooter">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, Indore MP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>Averybit@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="/src/html/home.html"><img src="/src/images/logo.svg" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                                incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="/src/html/home.html">Home</a></li>
+                            <li><a href="/src/html/About.html">about</a></li>
+                            <li><a href="/src/html/Services.html">services</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="/src/html/Contact.html">Contact</a></li>
+                            <li><a href="/src/html/About.html">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="/src/html/Contact.html">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="containercopyright">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2024, All Right Reserved <a href="">Team 'A' Averybit </a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="/HTML/home.html">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="/blog and contact/Ent/ENT-Clinic/src/html/Contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  </footer>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

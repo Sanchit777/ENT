@@ -1,0 +1,44 @@
+
+/* Custom CSS for automatic dropdown on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav li {
+    margin-right: 45px; 
+    color: black;
+}
+/* Button styles */
+.btn {
+    /* background-color: #053db4; */
+    padding: 12px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+}
+
+.btn span:last-child {
+    display: none;
+}
+
+.btn:hover {
+    background-color: #1176e2;
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+.btn:active {
+    background-color: #1176e2;
+}
+
+/* Navbar styles */
+.Nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff; /* Add your desired background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
